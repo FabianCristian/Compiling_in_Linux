@@ -9,9 +9,9 @@ Option are:
     -p  - convert to proper case (the first letter of word to upper and the rest to lower)
     -i  - invert upper case to lower case and lower case to upper case
         - if the option is missing, it will just copy the text
-For compiling in Linux shell:
+For compiling in the Linux terminal:
 $ gcc caseconv.c -o caseconv
 $ ./caseconv -option file.in file.out
 Examples:
 $ ./caseconv -l file1.txt file2.txt
-$ ls -1 | ./caseconv -u  //coverts the output from the ls command to lower case and prints the result to shell
+$ ls -1 | ./caseconv -u  //coverts the output from the ls command to lower case and prints the result to terminal
